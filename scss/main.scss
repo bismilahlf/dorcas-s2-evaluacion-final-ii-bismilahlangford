@@ -10,9 +10,17 @@
 	text-align: center;
 }
 
+.title {
+	margin: 20px;
+}
+
 .card__list{
 	list-style: none;
 	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 15px;
+	width: 900px;
+	margin: 20px auto;
 }
 
 .visible {
