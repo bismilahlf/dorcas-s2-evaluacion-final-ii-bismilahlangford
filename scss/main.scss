@@ -1,0 +1,26 @@
+@import 'core/settings';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main{
+	text-align: center;
+}
+
+.card__list{
+	list-style: none;
+	display: grid;
+}
+
+.visible {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.hidden {
+	display: none;
+}
